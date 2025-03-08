@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria - PixelHub</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="top-menu">
+    <div class="logo">
+      <i class="fas fa-camera"></i>
+      <span>Galeria de Imagens</span>
+    </div>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="galeria.html"><i class="fas fa-images"></i> Galeria</a></li>
+      <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="gallery-container">
+    <h1>Galeria de Imagens</h1>
+
+    <form id="uploadForm">
+      <input type="file" id="imageInput" accept="image/*" required>
+      <button type="submit"><i class="fas fa-upload"></i> Adicionar Imagem</button>
+    </form>
+
+    <div id="imageGallery" class="gallery"></div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Sobre</h3>
+        <p>O PixelHub é uma plataforma para guardar e gerenciar suas imagens de forma simples e intuitiva.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contato</h3>
+        <ul>
+          <li><i class="fas fa-envelope"></i> contato@pixelhub.com</li>
+          <li><i class="fas fa-phone"></i> (38) 8867-1400</li>
+          <li><i class="fas fa-map-marker-alt"></i> Salinas, MG - Brasil</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>PixelHub</p>
+      <p>Rithiellen Máxima</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
